@@ -3,6 +3,7 @@ my_list = []
 for i in range(1,4):
     my_list.append(i * 10)
 
+my_list.insert(1, 15)
 another_list = [50, 60, 70]
 my_list.extend(another_list)
 
